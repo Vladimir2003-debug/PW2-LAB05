@@ -18,8 +18,9 @@
         <li>{{ post.title }}</li><button onclick="viewContent('{{ post.title }}')">VIEW</button><button onclick="deleteFile('{{ post.title }}')">ELIMINAR</button>
     {% endfor %}
     </ul>
+    <!--Ver el Contenido de un Post-->
+    <div id='content'></div>
 
-    <!--Ver el Contenido de un Post a HTML-->
     <!--Crear nuevos archivos markdown y almacenarlos en el servidor-->
     <button onclick="mostrarCreate()">crear Nuevo</button>
     <div id="create">
